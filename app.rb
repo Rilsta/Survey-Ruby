@@ -1,6 +1,7 @@
 require('sinatra')
 require('sinatra/reloader')
 require('sinatra/activerecord')
+require('newrelic_rpm')
 require('./lib/survey')
 require('./lib/question')
 require('pg')
